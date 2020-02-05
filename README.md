@@ -1,9 +1,17 @@
 # Time Reporter
 
+## TODO
+* POST data write data to file
+* GET data reads data from file
+
+* wish: import .ts is fixed
+* wish: VS Code supports top level await
+* wish: easily import types from dependencies
+
+
 ## Use Cases
 1. Worker submit a time report
 2. Owner view time reports
-
 
 ## Data
 
@@ -19,7 +27,6 @@
 * eSignature (timestamp, machine, browser ...)
 
 ## Tech
-
 * Web API
   * POST /api/time-reports
   * GET /api/time-reports
