@@ -21,6 +21,6 @@
 ## Tech
 
 * Web API
-  * POST /api/time-report
+  * POST /api/time-reports
   * GET /api/time-reports
-  * GET /api/time-reports/{id}
+  * GET /api/time-reports/:id
