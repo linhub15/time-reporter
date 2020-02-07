@@ -1,5 +1,7 @@
 {
     "[typescript]": {
         "editor.tabSize": 2
-    }
+    },
+    "deno.enable": true,
+    "deno.dtsFilepaths": ["./.vscode/deno.d.ts"]
 }

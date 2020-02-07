@@ -17,9 +17,11 @@ router
     const body = await context.request.body();
     context.response.body = body;
   })
+
   .get("/api/time-reports", async (context) => {
     context.response.body = getTimeReports();
   })
+
   .get("/api/time-reports/:id", async (context) => {
     if (context.params && context.params.id) {
       context.response.body = getTimeReports()
